@@ -5,6 +5,7 @@ import LatestInvoices from '../../ui/dashboard/latest-invoices';
 import { lusitana } from '@/app/ui/fonts';
 import { fetchCardData } from '../../lib/data';
 import { Suspense } from 'react'; //  imported in chapter 9
+import CardWrapper from '@/app/ui/dashboard/cards'; // imported in chapter 9
 import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton } from '@/app/ui/skeletons'; // imported in chapter 9
 
 export default async function Page() {
